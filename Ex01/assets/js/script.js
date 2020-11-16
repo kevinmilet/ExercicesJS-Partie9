@@ -12,8 +12,7 @@ let cleaveDate = new Cleave('#comDate', {
 
 let cbNumberCleave = new Cleave('#cbNumber', {
     creditCard: true,
-    onCreditCardTypeChanged: function (type) {
+    onCreditCardTypeChanged: function(type) {
         document.querySelector('.cardType').innerHTML = type;
-    //     // update UI ...
     }
 });
