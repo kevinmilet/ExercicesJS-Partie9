@@ -1,4 +1,5 @@
 let cleaveTelNumber = new Cleave('#telNumber', {
+
     prefix: '+33',
     delimiter: " ",
     blocks: [3, 2, 2, 2, 2, 2]
@@ -7,7 +8,7 @@ let cleaveTelNumber = new Cleave('#telNumber', {
 let cleaveDate = new Cleave('#comDate', {
     date: true,
     datePattern: ['d', 'm', 'Y'],
-    delimiter: '-'
+    delimiter: '/'
 });
 
 let cbNumberCleave = new Cleave('#cbNumber', {

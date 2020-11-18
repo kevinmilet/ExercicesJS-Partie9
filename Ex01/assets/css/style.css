@@ -6,3 +6,8 @@
 input {
     margin: 5px;
 }
+
+.cardType {
+    color: red;
+    text-transform: uppercase;
+}
